@@ -1,0 +1,39 @@
+
+.container
+{
+    margin: 5vh ;
+    text-align: center;
+}
+.options
+{
+    background-color: burlywood;
+    width: 500px;
+    height: 75px;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.color-option
+{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+img
+{
+    width: 640px;
+    height: 360px;
+}
+.optElement
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

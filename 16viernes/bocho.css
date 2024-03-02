@@ -1,0 +1,40 @@
+
+  .container {
+    margin: 5vh;
+    text-align: center;
+  }
+  
+  .options {
+    background-color: burlywood;
+    width: 500px;
+    height: 75px;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .color-option {
+    /* Removed entire rule as it defines color and other styles */
+  }
+  
+  img {
+    width: 640px;
+    height: 360px;
+  }
+  
+  .optElement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  select {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  /* Removed all color-related class definitions for .rojo, .azul, .amarillo, and .blanco */
+  

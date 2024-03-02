@@ -1,0 +1,26 @@
+//clase java -script
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <p>Hola jeje</p>
+            <p id="userName"></p>
+            <hr>
+            <p>Tu edad: </p>
+            <p id="userAge"></p>
+        </div>
+    </body>
+    <script>
+        console.log('holaMundo');
+
+        let nombre = prompt("Bienvenido!\n¿Cuál es tu nombre?");
+        let edad = prompt("¿Cuál es tu edad?");
+        document.getElementById("userName").innerHTML = nombre;
+        document.getElementById("userAge").innerHTML = edad;
+    </script>
+</html>

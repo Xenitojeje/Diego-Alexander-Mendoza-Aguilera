@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabla de Multiplicar</title>
+<script>
+function generarTabla() {
+    var numero = parseInt(prompt("Ingrese un número para generar su tabla de multiplicar:"));
+    var tabla = "Tabla de Multiplicar del " + numero + ":\n";
+    for (var i = 1; i <= 10; i++) {
+        tabla += numero + " x " + i + " = " + (numero * i) + "\n";
+    }
+    alert(tabla);
+}
+</script>
+</head>
+<body>
+<h1>Tabla de Multiplicar</h1>
+<button onclick="generarTabla()">Generar Tabla</button>
+</body>
+</html>
+

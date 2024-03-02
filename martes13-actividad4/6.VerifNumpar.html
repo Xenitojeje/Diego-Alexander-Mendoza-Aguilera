@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verificar Número Par</title>
+<script>
+function verificarPar() {
+    var numero = parseInt(prompt("Ingrese un número para verificar si es par:"));
+    if (numero % 2 === 0) {
+        alert(numero + " es un número par.");
+    } else {
+        alert(numero + " no es un número par.");
+    }
+}
+</script>
+</head>
+<body>
+<h1>Verificar Número Par</h1>
+<button onclick="verificarPar()">Verificar</button>
+</body>
+</html>

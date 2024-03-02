@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conversión de Celsius a Fahrenheit</title>
+<script>
+function convertir() {
+    var celsius = parseFloat(prompt("Ingrese los grados Celsius a convertir:"));
+    var fahrenheit = (celsius * 9/5) + 32;
+    alert(celsius + "°C equivalen a " + fahrenheit + "°F");
+}
+</script>
+</head>
+<body>
+<h1>Conversión de Celsius a Fahrenheit</h1>
+<button onclick="convertir()">Convertir</button>
+</body>
+</html>
