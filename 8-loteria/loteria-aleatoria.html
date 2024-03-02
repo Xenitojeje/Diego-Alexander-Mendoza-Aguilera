@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bocho de color</title>
+    <style>
+        .container{
+            text-align: center;
+        }
+        .opciones{
+            background-color: rgb(184, 164, 138);
+            width: 500px;
+            margin: 0 auto;
+        }
+        .color-opcion{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: inline-block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img id="cambiar_bocho" src="bocho_rojo.jpg" alt="">
+        <div class="opciones">
+            <div class="color-opcion" style="background-color: red;" onclick="cabiarColorA('random')"></div>
+        </div>
+    </div>
+    <script>
+        function generarCambio(){
+            var foto = ['rojo','azul','blanco','amarillo'];
+            var aleatorio = Math.floor(Math.random() * foto.length);
+            return foto[aleatorio];
+        }
+        function cabiarColorA(color){
+            if(color === 'random'){
+                color = generarCambio();
+            }
+            document.getElementById("cambiar_bocho").src="bocho_"+color+".jpg";
+        }
+    </script>
+</body>
+</html>
